@@ -34,7 +34,7 @@ We will create a local Python virtual environment to isolate our project's third
 1. Use the built-in Python utility venv to create a new virtual environment named `.venv` in the current directory.
 
 ```shell
-python -m venv .venv
+python3 -m venv .venv
 ```
 
 Verify you get a new .venv directory in your project. 
@@ -60,7 +60,7 @@ Use the pip utility to install the libraries listed in requirements.txt into our
 
 Make sure you can see the .venv name in your terminal prompt before running this command.
 
-`python -m pip install -r requirements.txt`
+`python3 -m pip install -r requirements.txt`
 
 ## Task 4. Verify Setup
 
