@@ -102,6 +102,7 @@ We can execute additional commands in the terminal as soon as it finishes.
 
 You'll need to fix an error in the program to get it to run.
 Once it runs successfully, will it terminate on its own? How do you know? 
+## It doesn't term by itself - VSCODE tells me its still running - also the terminal say "waiting for messages" 
 As long as the process is running, we cannot use this terminal for other commands. 
 
 ## Task 8. Open a New Terminal / Emit More Messages
@@ -109,10 +110,12 @@ As long as the process is running, we cannot use this terminal for other command
 1. Open a new terminal window.
 1. Use this new window to run emit_message.py again.
 1. Watch the listing terminal - what do you see?  A second message?
+## A new "received" message is shown on a seperate line
 
 Sending the same message each time is kind of boring. This time:
 
-1. Where is the message defined? How can you change it?
+1. Where is the message defined? How can you change it? 
+## Yes - its defined in two places - one is the actual message and one is what is printed for the user
 1. Modify emit_message.py to emit a different message. 
 1. Execute the updated emit_message.py. 
 1. Watch what happens in the listening terminal.
@@ -122,7 +125,7 @@ Don't worry - it's just code. We can always revert back (try the 'undo' command 
 
 ## Task 9. Save Time & Effort: Don't Repeat Yourself
 
-Did you notice you had to change the message in TWO places?
+Did you notice you had to change the message in TWO places?  ## yep 
 
 1. You update the actual message sent. 
 1. You also update what is displayed to the user. 
@@ -147,7 +150,7 @@ Each of the version 2 programs include an error as well.
 1. Modify the docstrings on all your files.
 1. Include your name and the date.
 1. Imports always go at the top, just after the file docstring.
-1. Imports should be one per line - why?
+1. Imports should be one per line - why? to allow for it to be fully imported/avoid conflicts 
 1. Then, define your functions.
 1. Functions are reusable logic blocks.
 1. Everything the function needs comes in through the arguments.
