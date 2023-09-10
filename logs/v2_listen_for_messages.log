@@ -7,3 +7,5 @@
 2023-09-10 18:14:45,923.v2_listen_for_messages.INFO ==================================================
 2023-09-10 18:14:45,948.v2_listen_for_messages.INFO  [*] Waiting for messages. To exit press CTRL+C
 2023-09-10 18:15:03,367.v2_listen_for_messages.INFO Received: Hello World!
+2023-09-10 18:43:42,132.v2_listen_for_messages.WARNING User interrupted the listening process.
+2023-09-10 18:43:42,135.v2_listen_for_messages.INFO Closing connection. Goodbye.
