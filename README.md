@@ -175,3 +175,4 @@ Each of the version 2 programs include an error as well.
 
 
 ![Screenshots!](./images/Week3veri1.png)
+![Screenshots!](./images/Week3veri2.png)
